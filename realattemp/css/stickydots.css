@@ -1,0 +1,33 @@
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 35%;
+    right:10px;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  /* The animatable fade: IT GUORKS! <3  */
+#fadedots {
+    
+    animation: 3s fadeIn;
+    animation-delay: 9s;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+

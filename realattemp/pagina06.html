@@ -1,0 +1,244 @@
+<!DOCTYPE html lang="es-mx">
+<head>
+    <title>Junkenstein-Página 6</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main_junkstein.css">
+    <link rel="stylesheet" href="css/scrlldwn.css">
+    <link rel="stylesheet" href="css/page6.css">
+    <link rel="stylesheet" href="css/dots_component.css">
+    <link rel="stylesheet" href="css/stickydots.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+
+<style>
+    .footer-container a {
+    color: #9DEDB4  ; 
+    }
+.main{
+    margin-left: 10px;
+}
+
+.dotstyle2 li {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin: 0 16px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	margin-bottom:1px;
+	margin-top: 1px;
+	z-index: 1000;
+}
+.dotstyle2 li a {
+
+    top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+    background-color: #E8D6BA;
+	background-color: rgba(95, 211, 197, 0.822);
+	text-indent: -999em; /* make the text accessible to screen readers */
+	cursor: pointer;
+	position: absolute;}
+.dotstyle-fall2 li a {
+	-webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+	transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.dotstyle-fall2 li:hover a,
+.dotstyle-fall2 li a:focus,
+.dotstyle-fall2 li.current a {
+	background-color: #212A42;
+}
+
+.dotstyle-fall2 li.current::after {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.dotstyle-fall2 li.current a {
+	opacity: 0;
+	-webkit-transform: translateY(200%);
+	transform: translateY(200%);
+}
+
+ 
+
+
+</style>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body background="fon_warm.jpg">
+
+        <div class="scrlcontainer" style="margin-top:-400px;">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+        </div>
+
+<!-- The navigation pils -->
+
+<div class="dotstyle2 dotstyle-fall2 sticky" id="stickydots">
+        <ul>
+            <li><a href="#slide01">1</a></li><br><br>
+            <li><a href="#slide02">2</a></li><br><br>
+            <li><a href="#slide03">3</a></li><br><br>
+            <li><a href="#slide04">4</a></li><br><br>
+            <li><a href="#slide05">5</a></li><br><br>
+            <li><a href="#slide06">6</a></li><br><br>
+            <li><a href="#slide07">7</a></li><br><br>
+
+        </ul>
+    </div>
+
+<!-- Terminan las pils -->
+
+
+<!-- Todo tu contenido debe ir dentro de main, dividido en divs! -->
+<div id="main" class="main-container">
+
+        <div id="indications" style="opacity: 0; font-size: 0%;">
+                <h2>¡Un comic con movimiento basado en el scroll!</h2>
+                <h3>Nota:</h3>
+                <p>Se recomienda la visualización de esta página en Mozilla Firefox u Opera. Al manejar muchas de las animaciones en pixeles no es una página responsiva.<br>
+                    <i>Haz click en los círculos del lado derecho y te ayudarán a moverte entre viñetas de la página.</i></p>
+            </div>
+<!-- Empieza slide01 -->
+
+
+<div id="slide01">
+        <img src="img/08_01.png" id="s01-bg">
+        <img src="img/textos/08/texto_08_01_01.png" id="s01-01">
+        <img src="img/textos/08/texto_08_01_02.png" id="s01-02">
+        
+</div>
+
+<!-- termina slide01 -->
+
+<!-- Empieza slide02 -->
+<div id="slide02">
+    <img src="img/08_02.png" id="s02-bg">
+    <img src="img/textos/08/texto_08_02_01.png" id="s02-01">
+    <img src="img/textos/08/texto_08_02_02.png" id="s02-02">
+
+    
+
+
+
+
+</div>
+<!-- termina slide02 -->
+<!-- Empieza slide03 -->
+<div id="slide03">
+        <img src="img/08_03.png" id="s03-bg">
+    <img src="img/textos/08/texto_08_03_01.png" id="s03-01"><br><br><br>
+    <img src="img/textos/08/texto_08_03_02.png" id="s03-02"><br><br><br><br><br><br><br><br><br>
+
+    
+
+
+
+</div>
+<!-- termina slide03 -->
+<!-- Empieza slide04 -->
+<div id="slide04">
+        <img src="img/08_04.png" id="s04-bg">
+        <img src="img/textos/08/texto_08_04_01.png" id="s04-01">
+
+
+
+
+
+</div>
+<!-- termina slide04 -->
+<!-- Empieza slide05 -->
+<div id="slide05">
+        <img src="img/08_05.png" id="s05-bg"><br><br><br><br><br><br><br><br><br>
+    <img src="img/textos/08/texto_08_05_01.png" id="s05-01"><br><br><br><br><br><br><br>
+    <img src="img/textos/08/texto_08_05_02.png" id="s05-02"><br><br><br><br><br><br><br>
+
+
+</div>
+<!-- termina slide05 -->
+
+<!-- Empieza slide06 -->
+<div id="slide06">
+        <img src="img/08_06.png" id="s06-bg"><br><br><br><br><br><br><br><br><br>
+    <img src="img/textos/08/texto_08_06_01.png" id="s06-01"><br><br><br><br><br><br><br>
+    <img src="img/textos/08/texto_08_06_02.png" id="s06-02">
+    <img src="img/textos/08/texto_08_06_03.png" id="s06-03">
+    <img src="img/textos/08/texto_08_06_04.png" id="s06-04">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</div>
+<!-- termina slide06 -->
+
+<!-- Empieza slide07 -->
+<div id="slide07">
+        <img src="img/08_07.png" id="s06-bg"><br><br><br><br><br><br><br><br><br>
+    <img src="img/textos/08/texto_08_07_01.png" id="s07-01">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+<!-- termina slide07 -->
+<hr>
+<h1 style="  text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;">Fin</h1>
+<hr>
+
+
+<br>
+
+<div class="botomnavbar2">
+    <p class="bottomtext2">Páginas</p>
+        <ul>
+                <li><a href="pagina05.html"><</a></li>
+            
+                <li><a href="index.html">1</a></li>
+                <li><a href="pagina02.html">2</a></li>
+                <li><a href="pagina03.html">3</a></li>
+                <li><a href="pagina04.html">4</a></li>
+                <li><a href="pagina05.html">5</a></li>
+                <li><a href="pagina06.html">6</a></li>
+
+            </ul>
+</div>
+<br>
+
+</div><!-- Main div -->
+<br><br><br><br>
+
+<div class="footer-container lighttheme">
+        <footer class="wrapper">
+                <h3>2019 &copy; <a href="https://ihatetomatoes.net/?s=scrollmagic&post_type=post" target="_blank">Creado usando ScrollMagic</a> | <a href="https://twitter.com/ihatetomatoes" target="_blank">@ihatetomatoes</a> | <a href="https://playoverwatch.com/es-mx/media/#comics-section" target="_blank">Comic original</a></h3>
+        </footer>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="js/page6.js"></script>
+<script src="js/stickydots.js"></script>
+</html>
+
+
+ 
+

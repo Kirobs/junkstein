@@ -1,0 +1,305 @@
+/*===========================================================
+ Slide 01 Madness!
+===========================================================*/
+
+/*El estilo del div */
+#slide01{ 
+    margin:5%; 
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+    
+
+}
+
+
+
+#slide01.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+#s01-bg {
+    width: 100%;
+    z-index: -100;
+}
+
+#s01-bg.pinned {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 5%;
+}
+
+#s01-01{
+    width: 100%;
+    z-index: 40;
+    opacity: 0;
+    margin-top: -1000px;
+    z-index: 2;
+    transition: all 1s ease-out
+
+}
+
+#s01-01.fade-in {
+    opacity: 1;
+    
+}
+
+#s01-02{
+    width: 100%;
+    z-index: 50;
+    opacity: 0;
+    transition: all 1s ease-out
+    
+  
+
+}
+
+#s01-02.fade-in {
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+
+/*===========================================================
+ Slide 02 Madness!
+===========================================================*/
+
+    /*El estilo del div */
+#slide02{ 
+    margin:5%; 
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+    
+
+}
+
+
+
+#slide02.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+#s02-bg {
+    width: 50%;
+    z-index: -100;
+}
+
+#s02-bg.pinned {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 5%;
+}
+
+#s02-01{
+    width: 50%;
+    z-index: 40;
+    opacity: 0;
+    margin-top: -1000px;
+    z-index: 2;
+    transition: all 1s ease-out
+
+}
+
+#s02-01.fade-in {
+    opacity: 1;
+    
+}
+
+
+/*===========================================================
+ Slide 03 Madness!
+===========================================================*/
+
+    /*El estilo del div */
+    #slide03{ 
+        margin:5%;
+        margin-left: 45%; 
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 1s ease-out;
+        }
+
+        #slide03.fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    #s03-bg {
+        width: 90%;
+        z-index: -100;
+    }
+        
+        #s03-bg.pinned {
+            position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 5%;
+        }
+        
+#s03-01{
+    width: 90%;
+    z-index: 40;
+    opacity: 0;
+    margin-top: -1000px;
+    z-index: 2;
+    transition: all 1s ease-out
+}
+
+#s03-01.fade-in {
+    opacity: 1;
+    
+}
+
+#s03-02{
+    width: 90%;
+    z-index: 40;
+    opacity: 0;
+    margin-top: -1000px;
+    z-index: 2;
+    transition: all 1s ease-out
+}
+
+#s03-02.fade-in {
+    opacity: 1;
+    
+}
+
+/*===========================================================
+ Slide 04 Madness!
+===========================================================*/
+
+    /*El estilo del div */
+    #slide04{ 
+        margin:5%;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 1s ease-out;
+        }
+
+        #slide04.fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+#s04-bg {
+         width: 65%;
+        z-index: -100;
+        }
+            
+#s04-bg.pinned {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 5%;
+        }
+
+#s04-01{
+            width: 60%;
+            z-index: 40;
+            opacity: 0;
+            margin-top: -1000px;
+            z-index: 2;
+            transition: all 1s ease-out
+        }
+        
+#s04-01.fade-in {
+            opacity: 1;
+            
+        }
+        
+#s04-02{
+            width: 60%;
+            z-index: 40;
+            opacity: 0;
+            margin-top: -1000px;
+            z-index: 2;
+            transition: all 1s ease-out
+        }
+        
+#s04-02.fade-in {
+            opacity: 1;
+            
+        }
+
+#s03-03{
+            width: 60%;
+            z-index: 40;
+            opacity: 0;
+            margin-top: -1000px;
+            z-index: 2;
+            transition: all 1s ease-out
+        }
+        
+#s03-03.fade-in {
+            opacity: 1;
+            
+        }
+#s04-03{
+            width: 60%;
+            z-index: 40;
+            opacity: 0;
+            margin-top: -1000px;
+            z-index: 2;
+            transition: all 1s ease-out
+        }
+        
+#s04-03.fade-in {
+            opacity: 1;
+            
+        }
+
+/*===========================================================
+ Slide 05 Madness!
+===========================================================*/
+
+    /*El estilo del div */
+    #slide05{ 
+        margin:5%;
+        margin-left: 45%;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 1s ease-out;
+        }
+
+        #slide05.fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+#s05-bg {
+         width: 100%;
+        z-index: -100;
+        }
+            
+#s05-bg.pinned {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 5%;
+        }
+
+#s05-01{
+            width: 100%;
+            z-index: 40;
+            opacity: 0;
+            margin-top: -1000px;
+            z-index: 2;
+            transition: all 1s ease-out
+        }
+        
+#s05-01.fade-in {
+            opacity: 1;
+            
+        }
+
+    
